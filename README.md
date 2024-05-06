@@ -13,9 +13,9 @@ I used NOAA NCEI data archive to obtain Rapid Refresh (RAP) grib file for the ev
 
 The Python scripts are designed to analyze and visualize RAP (Rapid Refresh) grib data, focusing on atmospheric variables such as geopotential height, wind speed, and absolute vorticity at different pressure levels.
 
-The script utilizes the PyGrib library to open RAP grib files and extract necessary atmospheric variables.
+The script usess the PyGrib library to open RAP grib files and extract atmospheric variables.
 
-Various plots are generated for different pressure levels and timestamps, including 300mb heights and wind speeds, 500mb heights and absolute vorticity, and 850mb heights and wind speeds.
+Six plots are generated for different pressure levels and times, including 300mb heights and wind speeds, 500mb heights and absolute vorticity, and 850mb heights and wind speeds.
 
 Each plot is projected onto a Lambert Conformal projection and features map elements such as coastlines, borders, states, and lakes.
 
@@ -61,9 +61,9 @@ WPC_Surface_Analysis.py
 
 This python file contains Python scripts for plotting surface features on a map using data from the Weather Prediction Center (WPC) surface bulletin. The scripts utilize Cartopy for map projections and MetPy for parsing and plotting surface features.
 
-The script imports necessary packages and modules for data analysis and plotting. It defines a function plot_bulletin to plot surface features on a map using Cartopy.
+The script imports packages and modules for data analysis and plotting. It defines a function plot_bulletin to plot surface features on a map using Cartopy.
 
 Surface analysis data is retrieved from WPC surface bulletins using MetPy's parse_wpc_surface_bulletin function.
 
 The script generates maps with surface features plotted for different timestamps.
-Features such as high and low-pressure systems, warm fronts, cold fronts, etc., are plotted with appropriate styling.
+Features such as high and low-pressure systems, warm fronts, cold fronts are plotted with appropriate styling.
