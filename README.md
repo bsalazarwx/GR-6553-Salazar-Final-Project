@@ -6,6 +6,8 @@ My Final Project focuses on the March 31st through April 1st, 2023 tornado outbr
 
 To do this, I have six scripts that plot 300mb, 500mb, 850mb charts, SPC Convective Outlooks, SPC Storm Reports, Plan-Position Indicator (PPI) scans, WPC Surface Analysis, and Skew-Ts with calculated meteorological parameters. 
 
+If you have any questions regarding data, please email me at bsalazar.wx@gmail.com!
+
 ###
 300mb_500mb_850mg_Charts.py
 
@@ -42,7 +44,7 @@ SPCStormReports.py
 
 This python file contains Python scripts for mapping severe weather reports (tornadoes, hail, and wind) from NOAA using geospatial data visualization tools.
 
-The script retrieves tornado, hail, and wind reports CSV data from NOAA's Storm Prediction Center (SPC). It replaces unknown ratings or sizes with 0 and converts data to numeric format for consistent plotting. Using Cartopy and Matplotlib, it creates separate maps for each severe weather type (tornadoes, hail, and wind) with different colors for each type of report.
+The script retrieves tornado, hail, and wind reports CSV data from NOAA's Storm Prediction Center (SPC). Here is the link: https://www.spc.noaa.gov/exper/archive/event.php?date=20230331. It replaces unknown ratings or sizes with 0 and converts data to numeric format for consistent plotting. Using Cartopy and Matplotlib, it creates separate maps for each severe weather type (tornadoes, hail, and wind) with different colors for each type of report.
 
 ###
 Soundings.py
